@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29414830-86b1-465d-a46b-5c88cac643e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/xyz/something/console.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/xyz/something/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/xyz/something/repl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/xyz/something/dns.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/xyz/something/errors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/xyz/something/global-objects.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/xyz/something/net.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/xyz/something/net_client.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/xyz/something/net_server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/xyz/something/os.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/xyz/something/resources/does-exist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/xyz/something/timer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nodejs-train.iml" beforeDir="false" afterPath="$PROJECT_DIR$/nodejs-train.iml" afterDir="false" />
     </list>
@@ -54,30 +58,40 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.repl.js">
-    <configuration name="console.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/com/xyz/something/console.js" working-dir="$PROJECT_DIR$/com/xyz/something">
+  <component name="RunManager" selected="Node.js.net_client.js">
+    <configuration name="dns.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/com/xyz/something/dns.js" working-dir="$PROJECT_DIR$/com/xyz/something">
       <method v="2" />
     </configuration>
-    <configuration name="main.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/com/xyz/something/main.js" working-dir="$PROJECT_DIR$/com/xyz/something">
+    <configuration name="errors.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/com/xyz/something/errors.js" working-dir="$PROJECT_DIR$/com/xyz/something">
+      <method v="2" />
+    </configuration>
+    <configuration name="net_client.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/com/xyz/something/net_client.js" working-dir="$PROJECT_DIR$/com/xyz/something">
+      <method v="2" />
+    </configuration>
+    <configuration name="net_server.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/com/xyz/something/net_server.js" working-dir="$PROJECT_DIR$/com/xyz/something">
       <method v="2" />
     </configuration>
     <configuration name="nodejs-train" type="NodeJSConfigurationType" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="repl.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/com/xyz/something/repl.js" working-dir="$PROJECT_DIR$/com/xyz/something">
+    <configuration name="timer.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/com/xyz/something/timer.js" working-dir="$PROJECT_DIR$/com/xyz/something">
       <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Node.js.nodejs-train" />
-      <item itemvalue="Node.js.main.js" />
-      <item itemvalue="Node.js.console.js" />
-      <item itemvalue="Node.js.repl.js" />
+      <item itemvalue="Node.js.timer.js" />
+      <item itemvalue="Node.js.errors.js" />
+      <item itemvalue="Node.js.dns.js" />
+      <item itemvalue="Node.js.net_server.js" />
+      <item itemvalue="Node.js.net_client.js" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.repl.js" />
-        <item itemvalue="Node.js.console.js" />
-        <item itemvalue="Node.js.main.js" />
+        <item itemvalue="Node.js.net_client.js" />
+        <item itemvalue="Node.js.net_server.js" />
+        <item itemvalue="Node.js.dns.js" />
+        <item itemvalue="Node.js.errors.js" />
+        <item itemvalue="Node.js.timer.js" />
       </list>
     </recent_temporary>
   </component>
@@ -91,7 +105,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575444471919</updated>
-      <workItem from="1575444474531" duration="2542000" />
+      <workItem from="1575444474531" duration="7476000" />
     </task>
     <servers />
   </component>
