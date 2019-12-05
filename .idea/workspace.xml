@@ -2,15 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29414830-86b1-465d-a46b-5c88cac643e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/com/xyz/something/child-process-master.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/xyz/something/child-process-support.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/xyz/something/child-process.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/xyz/something/crypto.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/xyz/something/debugger.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/xyz/something/my.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/xyz/something/process.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/xyz/something/tls_client.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/xyz/something/buffers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/xyz/something/child-process-fork-master.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/xyz/something/child-process-fork-support.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/xyz/something/child-process-spawn-master.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/xyz/something/child-process-spawn-support.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/xyz/something/file-system.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/xyz/something/path.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/xyz/something/query-string.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/xyz/something/streams.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/xyz/something/stringdecoder.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/xyz/something/zlib.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/xyz/something/child-process-master.js" beforeDir="false" afterPath="$PROJECT_DIR$/com/xyz/something/child-process-exec-master.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/xyz/something/child-process-support.js" beforeDir="false" afterPath="$PROJECT_DIR$/com/xyz/something/child-process-exec-support.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/xyz/something/process.js" beforeDir="false" afterPath="$PROJECT_DIR$/com/xyz/something/process.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,6 +53,11 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
     <property name="ts.external.directory.path" value="E:\software_dev\ideaIU-2019.2.3.win\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\workspace\ws6\p2\com\xyz\something" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -59,40 +70,40 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.child-process-master.js">
-    <configuration name="child-process-master.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/com/xyz/something/child-process-master.js" working-dir="$PROJECT_DIR$/com/xyz/something">
-      <method v="2" />
-    </configuration>
-    <configuration name="child-process.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/com/xyz/something/child-process.js" working-dir="$PROJECT_DIR$/com/xyz/something">
-      <method v="2" />
-    </configuration>
-    <configuration name="debugger.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/com/xyz/something/debugger.js" working-dir="$PROJECT_DIR$/com/xyz/something">
+  <component name="RunManager" selected="Node.js.zlib.js">
+    <configuration name="file-system.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/com/xyz/something/file-system.js" working-dir="$PROJECT_DIR$/com/xyz/something">
       <method v="2" />
     </configuration>
     <configuration name="nodejs-train" type="NodeJSConfigurationType" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="process.js" type="NodeJSConfigurationType" temporary="true" application-parameters="hello 10" nameIsGenerated="true" path-to-js-file="process.js" working-dir="$PROJECT_DIR$/com/xyz/something">
+    <configuration name="path.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/com/xyz/something/path.js" working-dir="$PROJECT_DIR$/com/xyz/something">
       <method v="2" />
     </configuration>
-    <configuration name="tls_client.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/com/xyz/something/tls_client.js" working-dir="$PROJECT_DIR$/com/xyz/something">
+    <configuration name="query-string.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/com/xyz/something/query-string.js" working-dir="$PROJECT_DIR$/com/xyz/something">
+      <method v="2" />
+    </configuration>
+    <configuration name="stringdecoder.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/com/xyz/something/stringdecoder.js" working-dir="$PROJECT_DIR$/com/xyz/something">
+      <method v="2" />
+    </configuration>
+    <configuration name="zlib.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/com/xyz/something/zlib.js" working-dir="$PROJECT_DIR$/com/xyz/something">
       <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Node.js.nodejs-train" />
-      <item itemvalue="Node.js.tls_client.js" />
-      <item itemvalue="Node.js.debugger.js" />
-      <item itemvalue="Node.js.process.js" />
-      <item itemvalue="Node.js.child-process.js" />
-      <item itemvalue="Node.js.child-process-master.js" />
+      <item itemvalue="Node.js.file-system.js" />
+      <item itemvalue="Node.js.path.js" />
+      <item itemvalue="Node.js.stringdecoder.js" />
+      <item itemvalue="Node.js.query-string.js" />
+      <item itemvalue="Node.js.zlib.js" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.child-process-master.js" />
-        <item itemvalue="Node.js.child-process.js" />
-        <item itemvalue="Node.js.process.js" />
-        <item itemvalue="Node.js.debugger.js" />
-        <item itemvalue="Node.js.tls_client.js" />
+        <item itemvalue="Node.js.zlib.js" />
+        <item itemvalue="Node.js.query-string.js" />
+        <item itemvalue="Node.js.stringdecoder.js" />
+        <item itemvalue="Node.js.path.js" />
+        <item itemvalue="Node.js.file-system.js" />
       </list>
     </recent_temporary>
   </component>
@@ -107,7 +118,8 @@
       <option name="presentableId" value="Default" />
       <updated>1575444471919</updated>
       <workItem from="1575444474531" duration="7532000" />
-      <workItem from="1575512903523" duration="5207000" />
+      <workItem from="1575512903523" duration="5414000" />
+      <workItem from="1575525301317" duration="5885000" />
     </task>
     <servers />
   </component>
@@ -133,7 +145,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/com/xyz/something/debugger.js</url>
           <line>8</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>

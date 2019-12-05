@@ -32,6 +32,7 @@ function test1() {
 
 // Let's see another process example to print command line arguments. Here node is considered as the first argument,
 // filename is considered as the second argument and actual command line arguments are considered as third, fourth, fifth and so on.
+// 添加的参数会在控制台打印 Run/Debug Configurations>Application parameters: hello 10
 function test2() {
     process.argv.forEach((value, index, array) => {
         console.log(`${index}: ${value}`);
@@ -56,5 +57,5 @@ function test3() {
     console.log(`memoryUsage: ${process.memoryUsage()}`);
 }
 // test1();
-// test2();
-test3();
+test2();
+// test3();
