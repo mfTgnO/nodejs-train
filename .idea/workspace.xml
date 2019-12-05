@@ -2,17 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29414830-86b1-465d-a46b-5c88cac643e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/com/xyz/something/dns.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/xyz/something/errors.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/xyz/something/global-objects.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/xyz/something/net.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/xyz/something/net_client.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/xyz/something/net_server.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/xyz/something/os.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/xyz/something/resources/does-exist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/xyz/something/timer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/xyz/something/child-process-master.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/xyz/something/child-process-support.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/xyz/something/child-process.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/xyz/something/crypto.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/xyz/something/debugger.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/xyz/something/my.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/xyz/something/process.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/xyz/something/tls_client.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nodejs-train.iml" beforeDir="false" afterPath="$PROJECT_DIR$/nodejs-train.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,15 +34,18 @@
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
+  <component name="ProjectId" id="1UXpgCbuTFUMRCGU7jcdDy3mrSJ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.13.1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/com/xyz/something" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="ts.external.directory.path" value="E:\software_dev\ideaIU-2019.2.3.win\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -58,40 +59,40 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.net_client.js">
-    <configuration name="dns.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/com/xyz/something/dns.js" working-dir="$PROJECT_DIR$/com/xyz/something">
+  <component name="RunManager" selected="Node.js.child-process-master.js">
+    <configuration name="child-process-master.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/com/xyz/something/child-process-master.js" working-dir="$PROJECT_DIR$/com/xyz/something">
       <method v="2" />
     </configuration>
-    <configuration name="errors.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/com/xyz/something/errors.js" working-dir="$PROJECT_DIR$/com/xyz/something">
+    <configuration name="child-process.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/com/xyz/something/child-process.js" working-dir="$PROJECT_DIR$/com/xyz/something">
       <method v="2" />
     </configuration>
-    <configuration name="net_client.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/com/xyz/something/net_client.js" working-dir="$PROJECT_DIR$/com/xyz/something">
-      <method v="2" />
-    </configuration>
-    <configuration name="net_server.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/com/xyz/something/net_server.js" working-dir="$PROJECT_DIR$/com/xyz/something">
+    <configuration name="debugger.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/com/xyz/something/debugger.js" working-dir="$PROJECT_DIR$/com/xyz/something">
       <method v="2" />
     </configuration>
     <configuration name="nodejs-train" type="NodeJSConfigurationType" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="timer.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/com/xyz/something/timer.js" working-dir="$PROJECT_DIR$/com/xyz/something">
+    <configuration name="process.js" type="NodeJSConfigurationType" temporary="true" application-parameters="hello 10" nameIsGenerated="true" path-to-js-file="process.js" working-dir="$PROJECT_DIR$/com/xyz/something">
+      <method v="2" />
+    </configuration>
+    <configuration name="tls_client.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/com/xyz/something/tls_client.js" working-dir="$PROJECT_DIR$/com/xyz/something">
       <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Node.js.nodejs-train" />
-      <item itemvalue="Node.js.timer.js" />
-      <item itemvalue="Node.js.errors.js" />
-      <item itemvalue="Node.js.dns.js" />
-      <item itemvalue="Node.js.net_server.js" />
-      <item itemvalue="Node.js.net_client.js" />
+      <item itemvalue="Node.js.tls_client.js" />
+      <item itemvalue="Node.js.debugger.js" />
+      <item itemvalue="Node.js.process.js" />
+      <item itemvalue="Node.js.child-process.js" />
+      <item itemvalue="Node.js.child-process-master.js" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.net_client.js" />
-        <item itemvalue="Node.js.net_server.js" />
-        <item itemvalue="Node.js.dns.js" />
-        <item itemvalue="Node.js.errors.js" />
-        <item itemvalue="Node.js.timer.js" />
+        <item itemvalue="Node.js.child-process-master.js" />
+        <item itemvalue="Node.js.child-process.js" />
+        <item itemvalue="Node.js.process.js" />
+        <item itemvalue="Node.js.debugger.js" />
+        <item itemvalue="Node.js.tls_client.js" />
       </list>
     </recent_temporary>
   </component>
@@ -105,7 +106,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575444471919</updated>
-      <workItem from="1575444474531" duration="7476000" />
+      <workItem from="1575444474531" duration="7532000" />
+      <workItem from="1575512903523" duration="5207000" />
     </task>
     <servers />
   </component>
@@ -117,10 +119,24 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/com/xyz/something/debugger.js</url>
+          <line>8</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
