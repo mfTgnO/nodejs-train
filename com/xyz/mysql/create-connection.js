@@ -11,9 +11,10 @@
 * */
 var mysql = require('mysql');
 var con = mysql.createConnection({
-    host: '39.104.19.41',
-    user: 'root',
-    password: '!@#123QWEqwe'
+    host: '192.168.2.167',
+    port:'3306',
+    user: 'dev',
+    password: 'mypassword'
 });
 con.connect(function (err) {
     if (err) throw err;
